@@ -3,7 +3,9 @@ body {
     font-size: xxx-large;
     margin:auto;
     text-align: center;
-    background-image: url("./images/pexels-james-wheeler-1605325.jpg");
+   /* background-image: url("./images/pexels-james-wheeler-1605325.jpg");
+   */
+    background-color: aqua;
     background-size:50cm;
     background-repeat: no-repeat;
 
