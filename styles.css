@@ -1,0 +1,60 @@
+body {
+    background-color: grey;
+    font-size: xxx-large;
+    margin:auto;
+    text-align: center;
+    background-image: url("./images/pexels-james-wheeler-1605325.jpg");
+    background-size:50cm;
+    background-repeat: no-repeat;
+
+}
+.title {
+    margin-top: 10px;
+    font-style: italic;
+    color: black;
+}
+
+a{
+    margin-top: 50px;
+    text-align: left;
+}
+#twitter{
+    color: blue;
+    padding-right: 30px;
+}
+#linkedin{
+    color: white;
+}
+#youtube{
+    color: red;
+    padding-left: 30px;
+}
+p{
+    color: black;
+    border: 2mm;
+    border-style:dashed;
+    font-style: italic,oblique;
+
+}
+.typewriter h1 {
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .05em;
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
