@@ -1,13 +1,35 @@
+body{
+
+    background-color: antiquewhite;
+    color: brown;
+    font: 1em sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+h2{
+    text-align: center;
+}
 nav{
    display:flex;
+   background-color: burlywood;
+   border-radius: 2%;
 }
 form{
     right:0px;
+    width: 300px;
+    
     
 }
+
 li{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    list-style-type:none;
 }
 .navi{
     display: flex;
@@ -18,12 +40,18 @@ li{
 aside{
     
     right:0;
-    top: 50px;
+    top: 80px;
+    height: 80%;
     position:absolute;
+    background-color: cadetblue;
 
 }
 p{
     width: 70%;
+    
+    color: brown;
+    font: 1em sans-serif;
+    padding-top: 10%;
 }
 
 footer{
@@ -31,11 +59,8 @@ footer{
     width: 500px;
     position: absolute;
 }
-@media (max-width : 1000px){
+input{
 
-    body{
-        overflow:scroll;
-
-    }
-   
+    margin-top: 5%;
+    
 }
