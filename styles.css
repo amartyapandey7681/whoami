@@ -1,62 +1,41 @@
-body {
-    background-color: grey;
-    font-size: xxx-large;
-    margin:auto;
-    text-align: center;
-   /* background-image: url("./images/pexels-james-wheeler-1605325.jpg");
-   */
-    background-color: aqua;
-    background-size:50cm;
-    background-repeat: no-repeat;
+nav{
+   display:flex;
+}
+form{
+    right:0px;
+    
+}
+li{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.navi{
+    display: flex;
+    width : 75%
+    
+}
 
-}
-.title {
-    margin-top: 10px;
-    font-style: italic;
-    color: black;
-}
+aside{
+    
+    right:0;
+    top: 50px;
+    position:absolute;
 
-a{
-    margin-top: 50px;
-    text-align: left;
-}
-#twitter{
-    color: blue;
-    padding-right: 30px;
-}
-#linkedin{
-    color: white;
-}
-#youtube{
-    color: red;
-    padding-left: 30px;
 }
 p{
-    color: black;
-    border: 2mm;
-    border-style:dashed;
-    font-style: italic,oblique;
-
+    width: 70%;
 }
-.typewriter h1 {
-    overflow: hidden; 
-    border-right: .15em solid orange; 
-    white-space: nowrap; 
-    margin: 0 auto; 
-    letter-spacing: .05em;
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
-  }
-  
-  
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
-  }
+
+footer{
+    bottom: 0px;
+    width: 500px;
+    position: absolute;
+}
+@media (max-width : 1000px){
+
+    body{
+        overflow:scroll;
+
+    }
+   
+}
